@@ -20,7 +20,10 @@ dateElement.innerHTML = currentDate(now);
 // Temperature farengate
 function farengate (event){
 event.preventDefault();
+
 let temp = document.querySelector("#temperature-main");
+temperature.classList.add("farengate");
+temperaturec.classList.remove("farengate");
 temp.innerHTML = "77";
 let tempfirst = document.querySelector("#temperature-first");
 tempfirst.innerHTML = "84 °F";
@@ -41,6 +44,8 @@ temperature.addEventListener("click", farengate);
 function celsius (event){
 event.preventDefault();
 let temp = document.querySelector("#temperature-main");
+temperature.classList.remove("farengate");
+temperaturec.classList.add("farengate");
 temp.innerHTML = "25";
 let tempfirst = document.querySelector("#temperature-first");
 tempfirst.innerHTML = "29 °C";
