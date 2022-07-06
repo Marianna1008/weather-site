@@ -1,0 +1,144 @@
+.container{
+display: flex;
+
+}
+.video-container {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+opacity: 0.5;
+    
+}
+.container-block{
+min-width: 800px;
+z-index: 1;
+background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/037/940/original/Ellipse_2.png?1655766698');
+background-size: 450px;
+background-repeat: no-repeat;
+background-position: center;
+border: 3px solid rgba(10, 30, 69, 0.2);
+border-radius: 25px;
+margin: 100px auto;
+padding: 10px;
+box-shadow: 3px 2px 2px 2px rgba(20, 60, 138, 0.2);
+}
+.centre{
+background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/037/773/original/png1wing_2.png?1655658419');
+background-size: 90%;
+background-repeat: no-repeat;
+background-position: right 30px;
+height: 230px;
+}
+.first, .second, .third, .fourth, .fifth{
+text-align: center;
+min-width: 20%;
+}
+
+.second{
+padding-top: 50px;
+}
+
+.third {  
+    padding-top: 100px;
+}
+
+.fourth{
+padding-top: 50px;
+}
+
+.image{
+display: block; 
+margin: 0 auto;  
+height: 100px;
+
+}
+.date, .description{
+font-weight: 600;
+font-size: 20px;
+color: #13377e;
+
+}
+.temperature{
+font-weight: 600;
+font-size: 22px;
+color: #13377e;
+}
+input {
+    width: 150px;
+    height: 30px;
+    background: rgba(217, 217, 217, 0.5);    
+    color: #0c2351;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(217, 217, 217, 0.5); 
+    
+}
+   .icon {
+       font-size: 20px;
+       color: #42629F;
+ }
+ .icon:hover {
+     font-size: 21px;
+     color: #13377e;
+ }
+
+   ::placeholder {
+       color: #0c2351;
+   }
+
+   .form-field {
+       margin-top: 50px;
+       font-size: 14px;      
+   }
+   .city {  
+       font-size: 60px;
+       font-weight: 600;
+       color: #13377e;
+       text-shadow: 10px 4px 4px rgba(20, 60, 138, 0.3);
+       text-align: center;
+       position: relative;
+       bottom: -90px;
+     
+   }
+   .temperature-city {
+       text-align: center;
+       text-shadow: 10px 4px 4px rgba(20, 60, 138, 0.3);
+       font-weight: 600;
+       font-size: 40px;
+       color: #13377e;
+       position: relative;
+       bottom: -90px;
+   }
+   .temperature-city-type {
+    text-decoration: none;
+    color: #13377e;
+    
+   }
+.temperature-city-type:hover{
+    color: #105efa;
+    
+}
+
+   .description-city {
+       position: relative;       
+       top: 85px;       
+       font-weight: 600;
+       font-size: 25px;
+       color: #13377e;
+       text-transform: capitalize;
+   }
+
+   .date-city {
+       position: relative;
+       left: 85px;
+       top: 85px;
+       font-weight: 600;
+       font-size: 25px;
+       color: #13377e;
+   }
+   .icon-button{
+    background: none;
+    padding: 0px;
+    border: none;
+   }
